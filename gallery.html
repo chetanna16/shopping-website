@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9774; MoPQ</title>
+    <link rel="stylesheet" href="gallerystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"> <img src="MoPQ/8.png" alt="store logo" width="125px"> </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li> <a href="shop.html">Shop</a></li>
+                        <li> <a href="index.html">About</a></li>
+                        <li> <a href="gallery.html">Gallery</a></li>
+                        <li> <a href="">Account</a></li>
+                        <li> <a href="">Cart</a></li>
+                    </ul>
+                </nav>
+                <img src="MoPQ/bag logo/bag logo.png" alt="menu icon" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+    <div class="second-container">
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal1.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal2.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal3.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal4.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal5.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal6.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal7.png" alt="">
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-4">
+                <img src="MoPQ/gallery/gal8.png" alt="">
+            </div>
+        </div>
+    </div>
+   
+    <!--js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+    
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
