@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9774; shop</title>
+    <link rel="stylesheet" href="shopstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <img src="MoPQ/8.png" alt="store logo" width="125px"> </a>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="shop.html">Shop</a></li>
+                    <li> <a href="index.html">About</a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li> <a href="">Account</a></li>
+                    <li> <a href="">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    <div class="catgories">
+        <div class="small-container">
+            <h2>Shop</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="MoPQ/shopping items/shopitem1.png" alt="">
+                <h4>T-SHIRT - WHITE</h4>
+                <p>$25</p>
+            </div>
+            <div class="col-3">
+                <img src="MoPQ/shopping items/shopitem2.png" alt="">
+                <h4>T-SHIRT - BLACK</h4>
+                <p>$25</p>
+            </div>
+            <div class="col-3">
+                <img src="MoPQ/shopping items/shopitem3.png" alt="">
+                <h4>TOTE BAG</h4>
+                <p>$30</p>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="MoPQ/shopping items/shopitem4.png" alt="">
+                    <h4>BLANKET PRINT</h4>
+                    <p>$90</p>
+                </div>
+                <div class="col-3">
+                    <img src="MoPQ/shopping items/shopitem5.png" alt="">
+                    <h4>COFFEE MUG</h4>
+                    <p>$19</p>
+                </div>
+                <div class="col-3">
+                    <img src="MoPQ/shopping items/shopitem6.png" alt="">
+                    <h4>QUILTED JACKET - GREEN</h4>
+                    <p>$120</p>
+                </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="MoPQ/shopping items/shopitem7.png" alt="">
+                    <h4>QUILTED JACKET - BLACK</h4>
+                    <p>$120</p>
+                </div>
+                <div class="col-3">
+                    <img src="MoPQ/shopping items/shopitem8.png" alt="">
+                    <h4>WATER BOTTLE</h4>
+                    <p>$18</p>
+                </div>
+                <div class="col-3">
+                    <img src="MoPQ/shopping items/shopitem9.png" alt="">
+                    <h4>T-SHIRT - GREEN</h4>
+                    <p>$25</p>
+                </div>
+            
+        </div>
+    </div>
+    </div>
+    <!------js for toggle------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+    
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
