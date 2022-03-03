@@ -143,3 +143,23 @@ p{
         display: block;
     }
 }
+
+/* .add-cart{
+    position: absolute;
+    width: 100%;
+    background-color: #1F2B16;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    color: #FDFBF5;
+}
+
+.image:hover .cart1, .image:hover .cart2, .image:hover .cart3,
+.image:hover .cart4, .image:hover .cart5, .image:hover .cart6,
+.image:hover .cart7, .image:hover .cart8, .image:hover .cart9{
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+} */

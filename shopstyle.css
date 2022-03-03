@@ -81,6 +81,97 @@ p{
 }
 
 
-.col-3 img:hover{
+ .col-3 img:hover{
     border: 2px solid #1F4C21;
+} 
+
+.col-3 a:hover{
+    text-decoration: underline;
+}
+
+/* --------------------- cart ------------*/
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.products-container h5{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    margin: 10px 0;
+    color: #1F2B16;
+}
+.products-container ion-icon{
+    font-size: 25px;
+    color: #1F2B16;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.product-title{
+    width: 45%;
+    border-bottom: 1px solid #1F2B16; 
+}
+.price{
+    width: 15%;
+    border-bottom: 1px solid #1F2B16;
+    display: flex;
+    align-items: center;
+}
+.total{
+    width: 15%;
+    border-bottom: 1px solid #1F2B16;
+    display: flex;
+    align-items: center;
+}
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid #1F2B16;
+    display: flex;
+    align-items: center;
+}
+.products{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid #1F2B16;
+    display: flex;
+    align-items: center;
+}
+
+
+/*----media query for menu-----*/
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: transparent;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu-icon{
+        display: block;
+    }
 }
