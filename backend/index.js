@@ -3,11 +3,13 @@ const morgan = require("morgan");
 const { Prohairesis } = require("prohairesis");
 const bodyParser = require("body-parser");
 
+const dotenv = require("dotenv");
+dotenv.config();
+
 const app = express();
 const port = process.env.PORT || 8080;
 
-const mySQLString =
-  "mysql://b3233d3d91a180:feb9359a@us-cdbr-east-05.cleardb.net/heroku_08f087393a44da6?reconnect=true";
+const mySQLString = process.env.CLEARDB_DATABASE_URL;
 const database = new Prohairesis(mySQLString);
 
 app
