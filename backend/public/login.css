@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #fdfbf5;
+  overflow: hidden;
+}
+::selection {
+  background: #fdfbf5;
+}
+.container {
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper {
+  width: 100%;
+  background: #fdfbf5;
+}
+.wrapper .title {
+  height: 90px;
+  background: #fdfbf5;
+  color: #1f2b16;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input {
+  background-color: #fdfbf5;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus {
+  border-color: #1f2b16;
+}
+form .row input::placeholder {
+  color: #999;
+}
+.wrapper form .row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fdfbf5;
+  font-size: 18px;
+  background: #1f2b16;
+  border: 1px solid #1f2b16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass {
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a {
+  color: #1f2b16;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+.wrapper form .button input {
+  color: #fdfbf5;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #1f2b16;
+  border: 1px solid #1f2b16;
+  cursor: pointer;
+}
+form .button input:hover {
+  background: #1f2b16;
+}
+.wrapper form .signup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a {
+  color: #1f2b16;
+  text-decoration: none;
+}
+form .signup-link a:hover {
+  text-decoration: underline;
+}
